@@ -23,15 +23,13 @@ class HomeScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Static(
             """
-[bold #0f0]Welcome to Brandon's Terminal Portfolio[/]
+[bold #0f0]Welcome to Brandon's Portfolio[/]
 
-Austin, TX • Terminal enthusiast • Builder of things that run in your shell
+Austin, TX • Terminal enthusiast • Builder of cool stuff in Python and JS. 
 
 Press [b]P[/b] to see projects
      [b]A[/b] for about
      [b]Q[/b] or Ctrl+C to quit
-
-(or just use the mouse if your terminal supports it)
 """,
             id="welcome",
             markup=True,
@@ -139,10 +137,10 @@ class AboutScreen(Screen):
 # About Brandon
 
 - Based in **Austin, Texas**
-- I enjoy: low-level programming, Rust, Python TUIs, retro computing vibes
+- I enjoy: Cyber Security, Software Development, Game Development, Open Source, and Terminal Tools
 - Currently exploring: terminal-based tools, SSH experiences, minimalism in UX
 - Find my full work → https://brandon.example.com
-- GitHub: @yourusername
+- GitHub: @bw-bweatherly
 
 Built this terminal experience with **Textual** — because why not make a portfolio you ssh into?
             """
